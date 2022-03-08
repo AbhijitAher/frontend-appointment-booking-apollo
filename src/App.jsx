@@ -4,12 +4,7 @@ import { Home } from "./components/Home";
 import Form from "./components/Form";
 import DoctorHistory from "./components/DoctorHistory";
 import {
-	Container,
-	Stack,
-	Heading,
-	Text,
-	Link,
-	Button,
+	Container
 } from "@chakra-ui/react";
 
 function App() {
