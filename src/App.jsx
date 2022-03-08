@@ -3,17 +3,24 @@ import { Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home";
 import Form from "./components/Form";
 import DoctorHistory from "./components/DoctorHistory";
+import {
+	Container,
+	Stack,
+	Heading,
+	Text,
+	Link,
+	Button,
+} from "@chakra-ui/react";
 
 function App() {
 	return (
-		<div className="App">
-			<h1>Hello</h1>
+		<Container>
 			<Routes>
-				<Route path="/Home" element={<Home />}></Route>
-				<Route path="/doctor-history" element={<DoctorHistory />}></Route>
+				<Route path="/" element={<Home />}></Route>
 				<Route path="/form" element={<Form />}></Route>
+				<Route path="/doctor-history" element={<DoctorHistory />}></Route>
 			</Routes>
-		</div>
+		</Container>
 	);
 }
 
