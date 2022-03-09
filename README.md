@@ -1,3 +1,12 @@
+# Steps:
+- Visit https://abhijit-appointment-management-app.vercel.app/
+- Click on "Book an Appointment" Button
+- First Input Box Gets Populated with the Clinics
+- Select Clinic 1 - which populates second Input Box 
+- Select Doctor "C1 - Doctor-1 Neurologist"
+- Slots input box gets populated
+- You can select the time slot to book the appointment 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
