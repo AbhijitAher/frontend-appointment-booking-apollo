@@ -7,6 +7,10 @@
 - Slots input box gets populated
 - You can select the time slot to book the appointment 
 
+# Backend Repo
+- https://github.com/AbhijitAher/backend-appointment-booking-apollo
+- Deployed using Heroku
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
